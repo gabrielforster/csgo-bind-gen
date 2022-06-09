@@ -1,10 +1,8 @@
 import React, { useState } from 'react'
+import './styles/global.scss'
 
-function App() {
-
+export function App() {
   return (
-    <div>Hello World</div>
+    <div className='tijolinho'>Hello World</div>
   )
 }
-
-export default App
